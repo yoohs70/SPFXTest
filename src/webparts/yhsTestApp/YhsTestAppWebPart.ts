@@ -13,7 +13,7 @@ import { IYhsTestAppProps } from './components/IYhsTestAppProps';
 import { string } from 'prop-types';
 
 export interface IYhsTestAppWebPartProps {
-  //added
+  //added for 
   listName: string;
 }
 
