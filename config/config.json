@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "yhs-test-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/yhsTestApp/YhsTestAppWebPart.js",
+          "manifest": "./src/webparts/yhsTestApp/YhsTestAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "YhsTestAppWebPartStrings": "lib/webparts/yhsTestApp/loc/{locale}.js"
+  }
+}

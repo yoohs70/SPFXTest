@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "yhs-test-app-client-side-solution",
+    "id": "fbfa4905-5564-4c50-8194-8a25124b7e9e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/yhs-test-app.sppkg"
+  }
+}
