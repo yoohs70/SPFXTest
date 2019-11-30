@@ -24,7 +24,9 @@ export default class YhsTestAppWebPart extends BaseClientSideWebPart<IYhsTestApp
       YhsTestApp,
       {
         //added
-        listName: this.properties.listName
+        listName: this.properties.listName,
+        spHttpClient: this.context.spHttpClient,
+        siteUrl: this.context.pageContext.web.absoluteUrl
       }
     );
 
